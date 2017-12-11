@@ -26,7 +26,7 @@ function viewCart() {
 
               let key = Object.keys(cart[i]);
               let price = cart[i][key];
-              myString += (` ${key} for $${price}`);
+              myString += (` ${key} at $${price}`);
 
                 if(cart.length === 2) {
                     if(i === 0) {
