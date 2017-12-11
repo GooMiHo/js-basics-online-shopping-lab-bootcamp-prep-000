@@ -52,7 +52,7 @@ function viewCart() {
 }
 
 function total() {
-  totalPrice = 0;
+  var totalPrice = 0;
   for(let i = 0; i < cart.length; i++) {
     let key = Object.keys(cart[i]);
     let price = cart[i][key];
